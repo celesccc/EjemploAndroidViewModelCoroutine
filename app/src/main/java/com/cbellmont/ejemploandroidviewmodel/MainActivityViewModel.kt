@@ -21,4 +21,16 @@ class MainActivityViewModel  : ViewModel() {
         ))
     }
 
+    fun getBoton1() : List<Film> {
+      return films.subList(0,3)
+    }
+
+    fun getBoton2() : List<Film> {
+        return films.subList(3,6)
+    }
+
+    fun getBoton3() : List<Film> {
+        return films.subList(6,9)
+    }
+
 }
